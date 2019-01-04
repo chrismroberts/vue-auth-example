@@ -1,4 +1,5 @@
 # vue-auth-example
+This is a simple no bells or whistles example of how to store a JWT and add protected routes to a VueJS application. Full blog post here: [https://chrismroberts.com/2019/01/03/authentication-and-protected-routes-in-vuejs/](https://chrismroberts.com/2019/01/03/authentication-and-protected-routes-in-vuejs/)
 
 ## Project setup
 ```
@@ -13,16 +14,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
