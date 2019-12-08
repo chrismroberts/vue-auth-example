@@ -27,13 +27,13 @@
             }
         },
         methods: {
-            login() {
-                loginUser(this.username, this.password)
-                    .then(() => {
-                        this.$router.push('/')
-                    }).catch((err) => {
-                        alert(`Error: ${err}`)
-                    })
+            async login() {
+                try {
+                    await loginUser(this.username, this.password)
+                    this.$router.push('/')
+                } catch (err) {
+                    alert(`Error: ${err}`)                    
+                }
             }
         }
     }
